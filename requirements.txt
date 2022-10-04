@@ -1,0 +1,17 @@
+# Requirements for telegram ADA
+pandas
+numpy
+requests
+scikit-learn==1.0.2
+nltk==3.7
+python-telegram-bot==13.12
+openpyxl==3.0.10
+wolframalpha==5.0.0
+googletrans==3.0.0
+google-trans-new==1.1.9
+gensim==4.2.0
+mysql-connector-python==8.0.30
+spotipy==2.20.0
+pygoogletranslation==2.0.6
+pyyaml==6.0
+
