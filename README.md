@@ -39,13 +39,21 @@ $ pip install -r requirements.txt
 ## 1. Entrenamiento de la lógica del agente
 
 ### 1.1 Proceso de entrenamiento
-El proceso de entrenamiento genera un modelo de clasificación mediante el algoritmo de Random Forest, para los datos en el archivo `intent_file_word2vec.yml`, el cual contiene las etiquetas (clases) e intenciones por cada clase.
+El proceso de entrenamiento genera un modelo de clasificación mediante el algoritmo de Random Forest, para los datos en el archivo `intent_file_word2vec.yml`, el cual contiene las etiquetas (clases) e intenciones por cada clase. Ver siguiente figura:
+
+<p align="center">
+  <img width="45.0%" src="https://github.com/erikycd/Asistente_T/blob/main/image_intent.png?raw=true">
+</p>
 
 Ejecutar el programa principal con el siguiente comando:
 ```
 $ python main_word2vec_training.py
 ```
-Finalmente, el modelo entrenado `model_word2vec.sav` y un reporte de entrenamiento `report.txt` son guardados en la carpeta `./word2vec_engine`.
+Finalmente, el modelo entrenado `model_word2vec.sav` y un reporte de entrenamiento `report.txt` son guardados en la carpeta `./word2vec_engine`. Un ejemplo del espacio de clasificación de 3 dimensiones se puede ver en la siguiente figura:
+
+<p align="center">
+  <img width="45.0%" src="https://github.com/erikycd/Asistente_T/blob/main/word2vec_engine/word2vec_figure.png?raw=true">
+</p>
 
 ### 1.2 Proceso de inferencia
 
