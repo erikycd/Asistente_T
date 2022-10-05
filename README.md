@@ -2,16 +2,16 @@
 
 En este repositorio se muestra el proceso para generar los modelos de IA capaces de entrenar al [Asistente de aprendizaje](https://github.com/erikycd/Asistente_A) en algunas de las siguientes habilidades:
 
-* Lógica del agente (también llamado Dialog manager): Encargada del flujo de información mediante un modelo de clasificación
+* Lógica del agente (también llamado Dialog manager): Encargada del flujo de información mediante un modelo de clasificación,
 * Conversacional: Encargada de la habilidad conversacional mediante el modelo de lenguaje GPT2 de Huggingface.
 
 Tabla de contenido:
 
 0. [Instalación](https://github.com/erikycd/Asistente_T#instalaci%C3%B3n-creaci%C3%B3n-del-ambiente-e-instalaci%C3%B3n-de-dependencias)
 
-1. [Lógica del agente](https://github.com/erikycd/Asistente_T#1-sobre-la-l%C3%B3gica-del-agente)
+1. [Entrenamiento de la Lógica del agente](https://github.com/erikycd/Asistente_T#1-sobre-la-l%C3%B3gica-del-agente)
 
-3. [Convesacional](https://github.com/erikycd/Asistente_T#2-sobre-las-funciones-conversacionales)
+3. [Entrenamiento conversacional](https://github.com/erikycd/Asistente_T#2-sobre-las-funciones-conversacionales)
 
 ## Instalación. Creación del ambiente e instalación de dependencias
 
@@ -36,14 +36,21 @@ Instalar las librerias particulares que requiere el asistente a través del arch
 $ pip install -r requirements.txt
 ```
 
-## 1. Sobre la lógica del agente
+## 1. Entrenamiento de la lógica del agente
 
-### * Proceso de entrenamiento
+### 1.1 Proceso de entrenamiento
+El proceso de entrenamiento genera un modelo de clasificación mediante el algoritmo de Random Forest, para los datos en el archivo `intent_file_word2vec.yml`, el cual contiene las etiquetas (clases) e intenciones por cada clase.
 
-### * Proceso de inferencia
+Ejecutar el programa principal con el siguiente comando:
+```
+$ python main_word2vec_training.py
+```
+Finalmente, el modelo entrenado `model_word2vec.sav` y un reporte de entrenamiento `report.txt` son guardados en la carpeta `./word2vec_engine`.
 
-## 2. Sobre las funciones conversacionales
+### 1.2 Proceso de inferencia
 
-### * Proceso de entrenamiento
+## 2. Entrenamiento conversacional
 
-### * Proceso de inferencia
+### 2.1 Proceso de entrenamiento
+
+### 2.2 Proceso de inferencia
