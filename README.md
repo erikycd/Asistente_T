@@ -7,11 +7,11 @@ En este repositorio se muestra el proceso para generar los modelos de IA capaces
 
 Tabla de contenido:
 
-0. [Instalación]()
+0. [Instalación](https://github.com/erikycd/Asistente_T#instalaci%C3%B3n-creaci%C3%B3n-del-ambiente-e-instalaci%C3%B3n-de-dependencias)
 
-1. [Lógica del agente]()
+1. [Lógica del agente](https://github.com/erikycd/Asistente_T#1-sobre-la-l%C3%B3gica-del-agente)
 
-3. [Convesacional]()
+3. [Convesacional](https://github.com/erikycd/Asistente_T#2-sobre-las-funciones-conversacionales)
 
 ## Instalación. Creación del ambiente e instalación de dependencias
 
