@@ -52,7 +52,8 @@ $ python main_word2vec_training.py
 Finalmente, el modelo entrenado `model_word2vec.sav` y un reporte de entrenamiento `report.txt` son guardados en la carpeta `./word2vec_engine`. Un ejemplo del espacio de clasificación de 3 dimensiones se puede ver en la siguiente figura:
 
 <p align="center">
-  <img width="42.0%" src="https://github.com/erikycd/Asistente_T/blob/main/images/word2vec_figure.png?raw=true">
+  <img width="30.0%" src="https://github.com/erikycd/Asistente_T/blob/main/images/word2vec_figure.png?raw=true">
+  <img width="60.0%" src="https://github.com/erikycd/Asistente_T/blob/main/images/report.png?raw=true">
 </p>
 
 ### 1.2 Proceso de inferencia
